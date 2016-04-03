@@ -1,0 +1,21 @@
+/*______________BEGIN Markers____________*/
+body {
+	background-color: LightGray;
+}
+
+div {
+	border: 1px solid Chocolate;
+}
+
+/*______________END Markers_______________*/
+
+/*______________BEGIN Navigation Section */
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	width: 970px;
+	height:70px;
+	margin: 0 auto;
+}
+/*_________________END Navigtion Section */
