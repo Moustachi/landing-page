@@ -64,7 +64,7 @@ ul {
 	margin-top: 3px;
 	padding: 10px;
 	float:right;
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
@@ -83,3 +83,20 @@ li {
 	padding: 0px -10px;
 }
 /*_______________END Navigation styled list & logo */
+
+
+
+/*___________BEGIN Introduction Section__________*/
+
+/*________BEGIN_added tue/4/5_________*/
+.introduction {
+	background-image: url("../images/first-background.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+}
+/*________END__added tue4/5/__________*/
+
+
+/*___________END Introduction Section____________*
