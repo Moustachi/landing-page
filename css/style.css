@@ -92,6 +92,7 @@ li {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938rem;
+	/*overflow: auto; ____4/7 adding this created a problem */
 }
 /*________END__added tue4/5/__________*/
 
