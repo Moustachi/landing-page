@@ -9,6 +9,7 @@ html {
 /*______________BEGIN Markers____________*/
 body {
 	background-color: LightGray;
+	font-family: "Roboto", sans-serif;
 }
 
 div {
@@ -22,11 +23,7 @@ div {
 	background-color: #fff;
 }
 .top-navigation > .content {
-	width: 970px;
 	height:70px;
-	margin: 0 auto;
-	/*padding: 0px 15px;_________tue/4/5
-	*/
 }
 
 /* BEGIN 4/4/2016 added code */
@@ -98,5 +95,25 @@ li {
 }
 /*________END__added tue4/5/__________*/
 
+/*_____BEGIN - 4/7 Lesson 5, Unit 6 Cont.-_____*/
+
+.content {
+	margin: 0 auto;
+	width: 970px;
+}
+
+.introduction h1, .introduction h3 { 
+	text-align: center;
+	color: white;
+	font-weight: 100;
+
+}
+
+.introduction h1 {
+ margin-top: 17.5rem;
+ font-size: 3.125rem;
+}
+
+/*_____END - 4/7 Lesson 5, Unit 6 Cont.-______*/
 
 /*___________END Introduction Section____________*
