@@ -21,6 +21,9 @@ div {
 /*______________BEGIN Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	position:fixed;
+	width:100%;
+	z-index: 9999;
 }
 .top-navigation > .content {
 	height:70px;
@@ -118,10 +121,30 @@ button {
 	color:white;
 	display: block;
 	margin: 0 auto;
-	margin-top: ;
-	margin-bottom: ;
+	margin-top: ; /*not in the clone-site*/
+	margin-bottom: ; /*not in the clone-site*/
 }
 
 /*_____END - 4/7 Lesson 5, Unit 6 Cont.-______*/
+/*___________END Introduction Section____________*/
 
-/*___________END Introduction Section____________*
+/*_____BEGIN - 4/8 Lesson 5, Unit 7 -________*/
+/*_____BEGIN - Three Icon Section - ________*/
+.cases {
+	font-family: "Roboto", sans-serif;
+}
+.cases .devices {
+	width: 33.3333333%;
+	display: inline-block;
+	/* styles to assist with debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+}
+/*_____END - Three Icon Section - ________*/
