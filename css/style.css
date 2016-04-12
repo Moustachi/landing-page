@@ -135,19 +135,36 @@ button {
 /*_____BEGIN - Three Icon Section - ________*/
 .cases {
 	font-family: "Roboto", sans-serif;
+	border: 1px solid yellow;
+}
+.devices {
+	border: 1px solid red;
+	padding: 3em;
+	padding-left:16em;
 }
 .cases .devices {
-	width: 33.3333333%;
-	display: inline-block;
+	width: 100%;
 	/* styles to assist with debugging */
-	border: 1px solid black;
 	box-sizing: border-box;
-	height: 4em;
+	height: 20em;
+}
+
+.cases .devices > li{
+	width: 13em;
+	display: inline-block;
+	text-align: center;
+}
+
+.cases .devices > ul {
+	text-align: center;
 }
 
 .cases h2 {
+	border: 1px solid black;
 	font-size: 2.75rem;
-	margin: 1.625rem 0 3.125rem;
+	margin: 7rem 0 3.125rem;
 	font-weight: 300;
+	text-align: center;
 }
+
 /*_____END - Three Icon Section - ________*/
