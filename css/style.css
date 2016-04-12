@@ -21,7 +21,7 @@ div {
 /*______________BEGIN Navigation Section */
 .top-navigation {
 	background-color: #fff;
-	position:fixed;
+	position:relative;
 	width:100%;
 	z-index: 9999;
 }
@@ -57,10 +57,9 @@ div {
 
 ul {
 	border: 1px solid Black;
-	margin-right: 400px;
+	margin-right: 3em;
 	margin-top: 3px;
 	padding: 10px;
-	float:right;
 	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	color: #838994;
@@ -68,8 +67,7 @@ ul {
 }
 
 li {
-	border: 1px solid Black;
-	float: right;
+	border: 1px solid blue;
 	margin: 10px;
 	list-style-type: none;
 }
@@ -77,7 +75,8 @@ li {
 .logo{
 	/*border: 1px solid Black;*/
 	margin: 15px;
-	padding: 0px -10px;
+	position:absolute;
+	margin-left:2em;
 }
 /*_______________END Navigation styled list & logo */
 
@@ -88,10 +87,10 @@ li {
 /*________BEGIN_added tue/4/5_________*/
 .introduction {
 	background-image: url("../images/first-background.jpg");
-	background-position: center bottom;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 45.938rem;
+	height: 38rem;
 	/*overflow: auto; ____4/7 adding this created a problem */
 }
 /*________END__added tue4/5/__________*/
@@ -100,7 +99,7 @@ li {
 
 .content {
 	margin: 0 auto;
-	width: 970px;
+	width: 100%;
 }
 
 .introduction h1, .introduction h3 { 
@@ -110,8 +109,12 @@ li {
 
 }
 
+.introduction h3 {
+	margin-top: -1rem;
+}
+
 .introduction h1 {
- 	margin-top: 17.5rem;
+ 	margin-top: 15.5rem;
  	font-size: 3.125rem;
 }
 
