@@ -168,3 +168,15 @@ button {
 }
 
 /*_____END - Three Icon Section - ________*/
+
+/*________BEGIN - Footer Section -________*/
+
+.social {
+	text-align: center;
+}
+
+.icons > li {
+	display:inline;
+}
+
+/*____END - Footer Section -______________*/
